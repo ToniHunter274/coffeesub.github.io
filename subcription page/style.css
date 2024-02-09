@@ -1,0 +1,470 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+.big-nav{
+	display: none;
+	font-family: 'Barlow', sans-serif;
+}
+
+.intro-card{
+	background: url(../assets/plan/mobile/image-hero-blackcup.jpg);
+	background-size:cover;
+	padding: 100px 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 20px;
+	margin-bottom: 200px;
+}
+
+.intro-card h1{
+	font-family: 'Fraunces', sans-serif;
+	color: #FEFCF7;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 72px; 
+}
+
+.intro-card p{
+	font-family: 'Barlow', sans-serif;
+	color: #FEFCF7;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.start-card{
+	background-color: #2C343E;
+	border-radius:10px;
+	text-align: center;
+}
+
+.start-card span{
+	color: #FDD6BA;
+}
+
+.start-card h1{
+	color: #fff;
+}
+
+.start-card p{
+	color: #83888F;
+}
+
+.question-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.question-wrapper img{
+	width: 5%;
+	height: 5%; 
+	position: relative;
+	top: 30px;
+}
+
+.question-wrapper h1{
+	color: #83888F;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.options p{
+	font-family: 'Bralow', sans-serif;
+}
+
+.options{
+	background-color: #F4F1EB;
+	padding: 30px 20px;
+	margin: 10px 5px;
+	border-radius: 10px;
+	padding-block-end:70px;
+	line-height: 25px;
+	color: #333D4B;
+}
+
+.options:hover{
+	background-color: #FDD6BA;
+	cursor: pointer;
+}
+
+.options h1{
+	font-family: 'Fraunces', sans-serif;
+}
+
+.active-option{
+	background-color: #0E8784;
+	color: #fff;
+	padding: 30px 20px;
+	margin: 10px 5px;
+	border-radius: 10px;
+	line-height: 25px;
+}
+
+.summary-card h1{
+	color: #83888F;
+	font-size: 15px;
+	font-weight: 100;
+	font-family: 'Barlow', sans-serif;
+}
+
+footer{
+	background-color:#2C343E;
+	padding: 30px 20px;
+	margin-block-start:100px;
+}
+.inside-footer{
+	color: #83888F;
+	font-size: 15px;
+	font-family: 'Barlow', sans-serif;
+}
+
+.inside-footer div{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.footer-icons-container{
+	display: flex;
+	justify-content: center;
+}
+
+.footer-icons-container img{
+	margin: 15px;
+}
+.custom{
+	color: #0E8784;
+}
+.summary-card p{
+	color: #fff;
+	line-height: 30px;
+	font-family: 'Fraunces', sans-serif;
+}
+.summary-card div{
+	padding: 30px 20px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: #2C343E;
+}
+
+.btn-plan-create{
+	background-color: #0E8784;
+	border: none;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 10px;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.btn-container{
+	display: flex;
+	justify-content: center;
+}
+
+.universal aside{
+	display: none;
+}
+
+.step-order{
+	font-family: 'Fraunces', sans-serif;
+}
+
+.steps h1{
+	font-family: 'Fraunces', sans-serif;
+}
+
+.steps p{
+	font-family: 'Barlow', sans-serif;
+}
+
+.aside-nav span{
+	color: #0E8784;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.aside-nav{
+	color: #83888F;
+	font-family: 'Fraunces', sans-serif;
+	opacity: 0.5
+}
+
+.hidden {
+  display: none;
+}
+
+.aside-nav:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+.check-background {
+	display: none;
+	background:rgba(0,0,0,0.45);
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.side-nav{
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FEFCF7;
+
+}
+
+.side-nav.active{
+	display: block;
+}
+
+.top-of-side-nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.side-content{
+	text-align: center;
+	margin-block-start:175px;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 900;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.side-content a {
+	color:#333D4B;
+	text-decoration: none;
+}
+
+
+.side-content div{
+	margin: 50px;
+}
+
+
+.checkout-card {
+	width: 85%;
+	border-radius: 8px;
+	background: #FEFCF7;
+	position: absolute;
+	top: 50px;
+	left: 8%;
+}
+
+.thic-title {
+	background: #333D4B;
+	color: #FFF;
+	font-family:'Fraunces', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 48px;
+	border-top-left-radius: 8px;
+	border-top-right-radius:8px;
+	padding: 35px;
+}
+
+.info-wrapper{
+	padding: 35px;
+}
+.read-summary {
+	color: #83888F;
+	font-family: 'Fraunces', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 40px;
+}
+
+.confirm {
+	color: #333D4B;
+	font-family: 'Barlow', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px; 
+	opacity: 0.8;
+	margin-block-start:10px;
+}
+
+.value {
+	display: flex;
+	justify-content: space-around;
+	margin-block-start:20px;
+}
+
+#dollar {
+	color: #333D4B;
+	font-family: 'Fraunces', sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+	line-height: 36px;
+}
+
+.value button {
+	width: 217px;
+	height: 56px;
+	flex-shrink: 0;
+	border-radius: 6px;
+	background: #0E8784;
+	border: none;
+}
+
+button span {
+	color: #FEFCF7;
+	text-align: center;
+	font-family: 'Fraunces', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 25px; /* 138.889% */
+}
+
+
+@media only screen and (min-width: 768px){
+	.intro-card{
+		text-align: left;
+		background:url(../assets/plan/tablet/image-hero-blackcup.jpg);
+		background-size: cover;
+	}
+
+	.intro-card div{
+		width: 60%;
+	}
+
+	.option-wrap{
+		display: flex;
+	}
+
+	.steps{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.string-img{
+		width: 75%;
+		padding-block-start:50px;
+	}
+
+	.steps div{
+		width: 33.3%;
+		margin: 50px 25px;
+		text-align: left;
+	}
+
+	.steps span{
+		font-size: 50px;
+		font-weight: bold;
+	}
+
+	.footer-img-container{
+		display: flex;
+		justify-content: center;
+	}
+
+	.inside-footer{
+		display: flex;
+		justify-content: center;
+		margin-block-start:10px;
+	}
+
+	.footer-icons-container{
+		margin-block-start:20px;
+	}
+
+	.nav-toggle{
+		display: none;
+	}
+
+	.big-nav{
+		display: flex;
+	}
+
+	.big-nav{
+		display: flex;
+	}
+
+	.big-nav a{
+		text-decoration: none;
+		color: #83888F;
+	}
+
+	.big-nav div{
+		margin: 5px 20px;
+		font-size: 10px;
+	}
+
+}
+
+@media only screen and (min-width: 1000px){
+	.intro-card{
+		background:url(../assets/plan/desktop/image-hero-blackcup.jpg);
+		background-size: cover;
+	}
+
+	.intro-card h1{
+		font-size: 72px;
+	}
+
+	.intro-card p{
+		width: 50%
+	}
+
+	.start-card{
+		padding: 50px;
+	}
+
+	.type-of-coffee{
+		display: flex;
+	}
+
+	.universal{
+		display: flex; 
+		justify-content:space-around;
+	}
+
+	.universal aside{
+		display: block;
+		width: 20%;
+		padding-block-start:100px;
+	}
+
+	.the-other-side{
+		width: 50%;
+		padding-block-start:80px;
+	}
+
+	.btn-container{
+		justify-content: flex-end;
+	}
+
+	footer{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.btn-container{
+		width: 97%;
+	}
+
+	.footer-img-container{
+		padding-block-start:25px; 
+	}
+
+	.hidden{
+		display: none;
+	}
+
+	.checkout-card{
+		width: 40%;
+	}
+
+}
+

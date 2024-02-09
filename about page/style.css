@@ -1,0 +1,362 @@
+.big-nav{
+	display: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro-card{
+	padding: 70px 15px;
+	background: url(../assets/about/mobile/image-hero-whitecup.jpg);
+	background-size: cover;
+	text-align: center;
+	border-radius: 10px;
+	margin: 35px 15px;
+}
+
+.intro-card h1{
+	color: #fff;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.intro-card p{
+	color: #a2a2a2;
+	line-height: 25px;
+	font-family: 'Barlow', sans-serif;
+}
+
+footer{
+	background-color:#2C343E;
+	padding: 30px 20px;
+	margin-block-start:100px;
+}
+
+.extra-image-container{
+	display: flex;
+	justify-content: center;
+	margin-block-start:100px;
+}
+
+.extra-image-container img{
+	width: 90%;
+	border-radius: 5px;
+}
+
+.commitment-card{
+	text-align: center;
+	padding: 0px 10px;
+	color: #333D4B;
+	margin-block-start:50px;
+	line-height: 30px;
+}
+
+.commitment-card h1{
+	font-family: 'Fraunces', sans-serif;
+}
+
+.commitment-card p{
+	font-family: 'Barlow', sans-serif;
+}
+
+.inside-footer{
+	color: #83888F;
+	font-size: 15px;
+}
+
+.inside-footer div{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.footer-icons-container{
+	display: flex;
+	justify-content: center;
+}
+
+.footer-icons-container img{
+	margin: 15px;
+}
+.quality-card{
+	position: relative;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.quality-card img{
+	width: 75%;
+	border-radius: 5px;
+}
+
+.quality-contd{
+	background: #2C343E;
+	padding-block-start:100px;
+	padding-inline-start:25px;
+	padding-inline-end:25px;
+	padding-block-end:30px; 
+	border-radius: 10px;
+	text-align: center; 
+}
+
+.quality-contd h1{
+	color: #fff;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.quality-contd p{
+	color: #83888F;
+	font-family: 'Barlow', sans-serif;
+	line-height: 25px;
+}
+
+.headquarters-card{
+	text-align: center;
+	margin-block-start:100px; 
+}
+
+.headquarters-card h1{
+	color: #333D4B;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.headquarters-card p{
+	font-family: 'Barlow', sans-serif;
+	color: #333D4B;
+	line-height: 25px;
+}
+
+.headquarters-card span{
+	color:#83888F;
+	font-family: 'Fraunces', sans-serif;
+}
+
+.headquarters-card div{
+	margin: 50px;
+}
+
+.inside-footer{
+	font-size: 10px;
+	font-family: 'Barlow', sans-serif;
+}
+
+.desktop-card{
+	display: none;
+}
+
+.for-tablet, .for-desktop{
+	display: none;
+}
+
+.summary-card h1{
+	font-family: 'Barlow', sans-serif;
+}
+
+.summary-card p{
+	font-family: 'Fraunces', sans-serif;
+}
+
+.side-nav{
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FEFCF7;
+
+}
+
+.side-nav.active{
+	display: block;
+}
+
+.top-of-side-nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.side-content{
+	text-align: center;
+	margin-block-start:175px;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 900;
+	font-family: 'Fraunces', sans-serif;
+}
+
+
+.side-content div{
+	margin: 50px;
+}
+
+.side-content a{
+	color: #333D4B;
+	text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px){
+	.intro-card{
+		background: url(../assets/about/tablet/image-hero-whitecup.jpg);
+		background-size: cover;
+		text-align: left;
+		padding-inline-start:50px;
+	}
+
+	.intro-card p{
+		width: 70%;
+	}
+
+	.just-4-tablet{
+		display: flex;
+	}
+
+	.commitment-card{
+		width: 70%;
+		text-align: left;
+		margin-block-start:100px;
+	}
+
+	.nav-toggle{
+		display: none;
+	}
+
+	.big-nav{
+		display: flex;
+	}
+
+	.big-nav a{
+		text-decoration: none;
+		color: #83888F;
+	}
+
+	.big-nav div{
+		margin: 5px 20px;
+		font-size: 10px;
+	}
+
+	.quality-contd{
+		margin-block-start:50px;
+	}
+
+	.headquarters-card span{
+		display: block;
+		text-align: left;
+		margin-inline-start:20px;
+		margin-block-end:50px; 
+	}
+
+	.headquarters-card{
+		text-align: left;
+	}
+
+	.headquarters-card div{
+		margin: 0px;
+	}
+
+	.sectors{
+		display: flex;
+		justify-content: space-around;
+		width: 80%;
+	}
+
+	.footer-img-container{
+		display: flex;
+		justify-content: center;
+	}
+
+	.inside-footer{
+		display: flex;
+		justify-content: center;
+		margin: 20px 0px;
+	}
+
+	.for-mobile{
+		display: none;
+	}
+
+	.for-tablet{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+
+	.intro-card{
+		background: url(../assets/about/desktop/image-hero-whitecup.jpg);
+		background-size: cover;
+	}
+
+	.extra-image-container{
+		padding: 50px;
+	}
+
+	.commitment-card{
+		margin-block-start:150px;
+		padding: 100px;
+	}
+
+	.headquarters-card span{
+		margin-inline-start:100px;
+	}
+
+	.just-4-desktop{
+		display: flex;
+	}
+
+	.quality-card{
+		display: none;
+	}
+
+	.quality-contd{
+		display: flex;
+		text-align: left;
+		justify-content: space-around;
+	}
+
+	.desktop-width{
+		width: 45%;
+	}
+
+	.desktop-card{
+		display: block;
+		position: relative;
+		top: -150px;
+	}
+
+	footer{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.for-tablet{
+		display: none;
+	}
+
+	.for-desktop{
+		display: block;
+	}
+
+	.footer-img-container{
+		padding-block-start:25px;
+	}
+
+	.commitment-card{
+		width: 40%;
+	}
+
+.intro-card div{
+	width: 60%;
+}
+
+.footer-icon-container{
+	margin-block-start:15px; 
+}
+
+}
+
